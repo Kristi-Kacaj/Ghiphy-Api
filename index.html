@@ -11,9 +11,9 @@
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
 
-<body>
+<bod >
     
-    <header class="header_image"><b>Cartoon Gifs!</header></b>
+    <header class="header_image"><b>Click a gif to play. Click again to pause.</header></b>
     <br>
 
     <section>
@@ -23,14 +23,26 @@
             <label for = "cartoon-input">Add a cartoon!</label>
             <input type="text" id="cartoon-input">
             <br>
-            <input id="add-cartoon" class="submit_btn"  type="submit" value="Submit">
+            <input id="add-cartoon"  type="submit" value="Submit">
 
         </form>
 
         <div id="cartoon-buttons"></div>
-
-        <div id="images"></div>
         
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div id="images"></div>
+
+                </div>
+
+            </div>
+        
+        </div>
+    
     </section>
 
 </body>

@@ -35,4 +35,21 @@ label {
 #add-cartoon {
     background-color:rgb(255, 145, 0);
     color: white;
+    cursor: pointer;
 }
+
+button {
+    position: relative;
+    background-color: orange;
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+#images {
+    clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+
