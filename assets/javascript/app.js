@@ -51,6 +51,17 @@ $(document).ready(function() {
             }
         })
     })
-})
+    
+    //Changes from still to animated, back and forth, when an image is clicked on
+    $(document).on("click", ".cartoon-images", function() {
+        let state = $(this).attr("data-state");
 
-    //Changes from still to animated, back and forth, when an image is clicked on.
+        if(state === "still") {
+            $(this).attr("scr", $(this).attr("data-animate"));
+            $(this).attr("data-state", "still");
+        } else {
+            $(this).attr("scr", $(this).attr("data-still"));
+            $(this).attr("data-state", "still");
+        }
+    })
+})
