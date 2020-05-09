@@ -8,3 +8,6 @@ HTML5, CSS, Bootstrap, Javascript, JQuery, AJAX, GIPHY API
 1. In the **Add a cartoon** textbox, enter a cartoon you'd like to add, then **submit**.
 2. When you click a button, 10 static, non-animated gif images related to the cartoon you chose are retrieved from the GIPHY API and placed in the Gif search results section.
 3. Click a gif image to play or animate the gif. Click the image again to pause.
+
+**Access the site:**
+https://kristi-kacaj.github.io/Ghiphy-Api/
