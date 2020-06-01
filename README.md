@@ -1,4 +1,4 @@
-# Ghiphy-Api
+# Giphy-Api
 This assignment makes use of the GIPHY API to make a dynamic web page that populates with gifs of your choice. You can select a cartoon from the pre-defined list or add your own cartoon to the list. When you click on a button, 10 images are retrieved from giphy and displayed on the page. When you click on the image, the gif plays. When you click again, the gif stops playing. The rating of each gif will also appear on the page.
 
 **Technologies used to create site:**
